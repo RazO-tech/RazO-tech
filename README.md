@@ -1,16 +1,26 @@
 ### Hi there 👋
 
-<!--
-**RazO-tech/RazO-tech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 I’m currently working on React JS
+- 🌱 I’m currently learning JavaScript frameworks
+- 💬 Ask me about Any library
+
+```javascript
+let skills = ["JavaScript","React JS","HTML5","CSS3","jQuery","SASS/SCSS"]
+
+const Razmik = () => {
+  return (
+    <div>
+      <h1>Web Developer</h1>
+      {skills.map(
+        skill => {
+          <h2>{skill}</h2>
+        }
+      )}
+    </div>
+  )
+}  
+
+```
